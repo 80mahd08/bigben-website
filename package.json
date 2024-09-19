@@ -11,10 +11,14 @@
 		"re-fhf": "npm uninstall fhf | npm i fhf"
 	},
 	"dependencies": {
+		"@fortawesome/free-brands-svg-icons": "^6.6.0",
+		"@fortawesome/free-solid-svg-icons": "^6.6.0",
+		"@fortawesome/react-fontawesome": "^0.2.2",
 		"fhf": "^2.0.2",
 		"fhf-react": "^2.0.5",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1",
+		"react-in-viewport": "^1.0.0-beta.2",
 		"react-router-dom": "^6.26.2"
 	},
 	"devDependencies": {

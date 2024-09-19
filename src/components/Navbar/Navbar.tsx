@@ -5,12 +5,16 @@ import logoSrc from "/logo.png";
 import NavList from "./components/NavList";
 import { Link, useLocation } from "react-router-dom";
 
-export default function Navbar() {
+export default function Navbar({
+	contactIsInTheViewPort,
+}: {
+	contactIsInTheViewPort: boolean;
+}) {
 	const isSmall = useMediaQuery("(max-width: 350px)");
 	const location = useLocation();
 
 	return (
-		<nav>
+		<nav style={{ top: contactIsInTheViewPort ? "-130px" : "0" }}>
 			<Container
 				style={{
 					justifyContent:
