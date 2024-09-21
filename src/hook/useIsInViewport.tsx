@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
 
-export default function useIsInViewport(ref: React.MutableRefObject<any>) {
+export default function useIsInViewport(
+	ref: React.MutableRefObject<any>,
+	rootMarginInput: string
+) {
 	const [isInViewport, setIsInViewport] = useState(false);
 
 	useEffect(() => {
@@ -10,7 +13,7 @@ export default function useIsInViewport(ref: React.MutableRefObject<any>) {
 			},
 			{
 				root: null, // Defaults to the browser viewport
-				rootMargin: "-115px", // No margin around the root
+				rootMargin: rootMarginInput, // , No margin around the root
 				threshold: 0.1, // 10% of the element needs to be visible
 			}
 		);

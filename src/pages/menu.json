@@ -1,0 +1,600 @@
+{
+	"drink": {
+		"cafe": [
+			{
+				"eleTitle": "Express",
+				"price": "3.500"
+			},
+			{
+				"eleTitle": "Capucin",
+				"price": "3.800"
+			},
+			{
+				"eleTitle": "Directe",
+				"price": "4.200"
+			},
+			{
+				"eleTitle": "Nescafé",
+				"price": "4.500"
+			},
+			{
+				"eleTitle": "Chocolat au lait",
+				"price": "4.200"
+			},
+			{
+				"eleTitle": "Cappuccino",
+				"price": "5.800"
+			}
+		],
+		"boissons": [
+			{
+				"eleTitle": "Eau 1L",
+				"price": "3.500"
+			},
+			{
+				"eleTitle": "Canette",
+				"price": "4.000"
+			},
+			{
+				"eleTitle": "Eau gazeifiée",
+				"price": "4.800"
+			}
+		],
+		"thé": [
+			{
+				"eleTitle": "Thé",
+				"price": "3.500"
+			},
+			{
+				"eleTitle": "Thé infusion",
+				"price": "3.800"
+			},
+			{
+				"eleTitle": "Thé amande",
+				"price": "5.200"
+			}
+		],
+		"jus": [
+			{
+				"eleTitle": "Orange",
+				"price": "7.600"
+			},
+			{
+				"eleTitle": "Citron",
+				"price": "7.600"
+			},
+			{
+				"eleTitle": "Fraise",
+				"price": "9.300"
+			},
+			{
+				"eleTitle": "Kiwi",
+				"price": "9.300"
+			},
+			{
+				"eleTitle": "Ananas",
+				"price": "11.500"
+			},
+			{
+				"eleTitle": "Manga",
+				"price": "11.500"
+			},
+			{
+				"eleTitle": "Litchi",
+				"price": "12.500"
+			},
+			{
+				"eleTitle": "Yuzi",
+				"price": "13.500"
+			},
+			{
+				"eleTitle": "Pasion fruits",
+				"price": "14.500"
+			},
+			{
+				"eleTitle": "Fromboise",
+				"price": "14.500"
+			},
+			{
+				"eleTitle": "Noix de coco",
+				"price": "14.500"
+			}
+		],
+		"smoothie": [
+			{
+				"eleTitle": "Fraise rouge",
+				"price": "11.600"
+			},
+			{
+				"eleTitle": "Fraise aux choix",
+				"price": "12.600"
+			},
+			{
+				"eleTitle": "Fruits metter",
+				"price": "12.600"
+			},
+			{
+				"eleTitle": "Fruit exotique",
+				"price": "13.600"
+			},
+			{
+				"eleTitle": "Smothie 3 fruits",
+				"price": "15.600"
+			},
+			{
+				"eleTitle": "smothei Big ben",
+				"price": "16.600"
+			}
+		],
+		"granette": [
+			{
+				"eleTitle": "Citron",
+				"price": "9.600"
+			},
+			{
+				"eleTitle": "Fraise",
+				"price": "12.600"
+			},
+			{
+				"eleTitle": "Kiwi",
+				"price": "12.600"
+			}
+		],
+		"coktaile": [
+			{
+				"eleTitle": "Fraise banane",
+				"price": "10.000"
+			},
+			{
+				"eleTitle": "Kiwi banane",
+				"price": "10.600"
+			},
+			{
+				"eleTitle": "Fruits mixte",
+				"price": "10.000"
+			},
+			{
+				"eleTitle": "Banane datte",
+				"price": "11.800"
+			}
+		],
+		"chocolatChaud": [
+			{
+				"eleTitle": "Chocolat chaud",
+				"price": "8.000"
+			},
+			{
+				"eleTitle": "Chocolat nutella",
+				"price": "10.800"
+			},
+			{
+				"eleTitle": "Chocolat oreo",
+				"price": "10.800"
+			},
+			{
+				"eleTitle": "Chocolat speculoos",
+				"price": "10.800"
+			},
+			{
+				"eleTitle": "Chocolat BIG BEN",
+				"price": "13.800"
+			}
+		],
+		"frappuccino": [
+			{
+				"eleTitle": "Chocolat",
+				"price": "12.600"
+			},
+			{
+				"eleTitle": "Oreo",
+				"price": "13.800"
+			},
+			{
+				"eleTitle": "Speculoos",
+				"price": "13.800"
+			},
+			{
+				"eleTitle": "Nutella",
+				"price": "13.800"
+			},
+			{
+				"eleTitle": "Snikers",
+				"price": "13.800"
+			},
+			{
+				"eleTitle": "BIG BEN",
+				"price": "16.000"
+			}
+		],
+		"milkshake": [
+			{
+				"eleTitle": "Chocolat",
+				"price": "11.500"
+			},
+			{
+				"eleTitle": "Oreo",
+				"price": "12.600"
+			},
+			{
+				"eleTitle": "Nutella",
+				"price": "13.600"
+			},
+			{
+				"eleTitle": "BIG BEN",
+				"price": "16.000"
+			}
+		],
+		"mojito": [
+			{
+				"eleTitle": "Vert mojito",
+				"price": "11.500"
+			},
+			{
+				"eleTitle": "Bleu mojito",
+				"price": "12.500"
+			},
+			{
+				"eleTitle": "Red mojito",
+				"price": "12.500"
+			},
+			{
+				"eleTitle": "Mojito fruit",
+				"price": "13.500"
+			},
+			{
+				"eleTitle": "Mojito Big ben",
+				"price": "15.500"
+			}
+		]
+	},
+	"food": {
+		"glace": [
+			{
+				"eleTitle": "3 boules",
+				"price": "5.000"
+			},
+			{
+				"eleTitle": "4 boules",
+				"price": "6.500"
+			},
+			{
+				"eleTitle": "6 boules",
+				"price": "8.500"
+			},
+			{
+				"eleTitle": "BIG BEN",
+				"price": "12.600"
+			}
+		],
+		"chocolatGlace": [
+			{
+				"eleTitle": "Chocolat glacé",
+				"price": "9.200"
+			},
+			{
+				"eleTitle": "Nutella",
+				"price": "11.600"
+			},
+			{
+				"eleTitle": "Fruit secs",
+				"price": "13.600"
+			},
+			{
+				"eleTitle": "BIG BEN",
+				"price": "15.800"
+			}
+		],
+		"baguetteFarcie": [
+			{
+				"eleTitle": "Jambon",
+				"price": "8.000"
+			},
+			{
+				"eleTitle": "Escalope pannee",
+				"price": "9.500"
+			},
+			{
+				"eleTitle": "Escalope grillee",
+				"price": "9.500"
+			},
+			{
+				"eleTitle": "Thon",
+				"price": "10.000"
+			},
+			{
+				"eleTitle": "Baguette farcie XL",
+				"price": "25.000"
+			}
+		],
+		"makloub": [
+			{
+				"eleTitle": "Jambon",
+				"price": "8.000"
+			},
+			{
+				"eleTitle": "Escalope pannee",
+				"price": "9.500"
+			},
+			{
+				"eleTitle": "Escalope grillee",
+				"price": "9.500"
+			},
+			{
+				"eleTitle": "Thon",
+				"price": "10.000"
+			}
+		],
+		"cornet": [
+			{
+				"eleTitle": "Jambon",
+				"price": "8.000"
+			},
+			{
+				"eleTitle": "Escalope pannee",
+				"price": "9.500"
+			},
+			{
+				"eleTitle": "Escalope grillee",
+				"price": "9.500"
+			},
+			{
+				"eleTitle": "Thon",
+				"price": "10.000"
+			}
+		],
+		"panozzo": [
+			{
+				"eleTitle": "Jambon",
+				"price": "11.000"
+			},
+			{
+				"eleTitle": "Escalope pannee",
+				"price": "13.000"
+			},
+			{
+				"eleTitle": "Escalope grillee",
+				"price": "12.000"
+			},
+			{
+				"eleTitle": "Thon",
+				"price": "13.000"
+			},
+			{
+				"eleTitle": "Cordon bleu",
+				"price": "14.000"
+			},
+			{
+				"eleTitle": "Big ben",
+				"price": "16.000"
+			}
+		],
+		"hamburger": [
+			{
+				"eleTitle": "Hamburger BIG BEN",
+				"price": "19.000"
+			}
+		],
+		"pizza": [
+			{
+				"eleTitle": "Pizza margherita (sauce tomate, mozzarella)",
+				"price": "13.000"
+			},
+			{
+				"eleTitle": "Pizza funghi (sauce tomate, mozzarella, champinion)",
+				"price": "16.000"
+			},
+			{
+				"eleTitle": "Pizza pepperoni (sauce tomate, mozzarella, pepperoni)",
+				"price": "17.000"
+			},
+			{
+				"eleTitle": "Pizza thon (sauce tomate, mozzarella, thon)",
+				"price": "18.000"
+			},
+			{
+				"eleTitle": "Pizza 3 jambon (sauce tomate, mozzarella, jambon, pepperoni, saison)",
+				"price": "18.000"
+			},
+			{
+				"eleTitle": "Pizza berbere (sauce tomate, mozzarella, oeuf, merguez)",
+				"price": "18.000"
+			},
+			{
+				"eleTitle": "Pizza mexicaine (sauce tomate, mozzarella, escalope)",
+				"price": "18.000"
+			},
+			{
+				"eleTitle": "Pizza 4 saison (sauce, mozzarella, jambon, pepperoni, thon)",
+				"price": "19.000"
+			},
+			{
+				"eleTitle": "Pizza chevre miel (Creme fraiche, fromage de chevrette)",
+				"price": "19.000"
+			},
+			{
+				"eleTitle": "Pizza mare monti (sauce tomate, mozzarella, thon, champinion)",
+				"price": "19.000"
+			},
+			{
+				"eleTitle": "Pizza 5 fromages (sauce rose, gruyere, parnes gen, camembert, mozzarella, rock fort)",
+				"price": "20.000"
+			},
+			{
+				"eleTitle": "Mizza pizza (sauce rose, mozzarella, champignon, escalope, gruyere epinards)",
+				"price": "20.000"
+			},
+			{
+				"eleTitle": "Pizza chevrette (sauce tomate, mozzarella, chevrette)",
+				"price": "21.000"
+			},
+			{
+				"eleTitle": "Pizza symphonie (sauce rose, mozzarella, chevrette, gruyere, champignon)",
+				"price": "23.000"
+			},
+			{
+				"eleTitle": "Pizza XL",
+				"price": "32.000"
+			}
+		],
+		"fruitDeMer": [
+			{
+				"eleTitle": "Daurade",
+				"price": "26.000"
+			},
+			{
+				"eleTitle": "Loup",
+				"price": "28.000"
+			},
+			{
+				"eleTitle": "Crevette sautees sauce a l'ail",
+				"price": "32.000"
+			},
+			{
+				"eleTitle": "Calamars saute sauce a l'ail",
+				"price": "33.000"
+			},
+			{
+				"eleTitle": "Crevette pannee",
+				"price": "33.000"
+			},
+			{
+				"eleTitle": "Daurade farcie",
+				"price": "37.000"
+			},
+			{
+				"eleTitle": "loup farcie",
+				"price": "38.000"
+			},
+			{
+				"eleTitle": "Filet daurade sauce champignon",
+				"price": "39.000"
+			},
+			{
+				"eleTitle": "crevette",
+				"price": "39.000"
+			},
+			{
+				"eleTitle": "Crevette tempura 8 pieces",
+				"price": "48.000"
+			}
+		],
+		"ojja": [
+			{
+				"eleTitle": "Ojja escalope",
+				"price": "18.000"
+			},
+			{
+				"eleTitle": "Ojja fruit de mer",
+				"price": "27.000"
+			}
+		],
+		"salade": [
+			{
+				"eleTitle": "Salade cesar",
+				"price": "25.000"
+			},
+			{
+				"eleTitle": "Salade nicoise",
+				"price": "25.000"
+			},
+			{
+				"eleTitle": "Salade burrata",
+				"price": "29.000"
+			},
+			{
+				"eleTitle": "Salade camembert",
+				"price": "29.000"
+			}
+		],
+		"boeuf": [
+			{
+				"eleTitle": "Emince de boeuf creme champignon saute aux legumes",
+				"price": "32.000"
+			},
+			{
+				"eleTitle": "Filet de boeuf grille avec fines herbes",
+				"price": "34.000"
+			},
+			{
+				"eleTitle": "Filet de boeuf avec sauce aux champignon",
+				"price": "36.000"
+			},
+			{
+				"eleTitle": "Cotelette de boeuf",
+				"price": "36.000"
+			},
+			{
+				"eleTitle": "Cote a l'osse pizza",
+				"price": "48.000"
+			}
+		],
+		"agneau": [
+			{
+				"eleTitle": "Foi d'agneau",
+				"price": "33.000"
+			},
+			{
+				"eleTitle": "Cotlet d'agneau",
+				"price": "34.000"
+			},
+			{
+				"eleTitle": "Bonbons d'agneau",
+				"price": "38.000"
+			},
+			{
+				"eleTitle": "Poele a viande et foi",
+				"price": "38.000"
+			},
+			{
+				"eleTitle": "Grillade mixte",
+				"price": "42.000"
+			}
+		],
+		"platsAPartager": [
+			{
+				"eleTitle": "Tomhawk : 1kg",
+				"price": "105.000"
+			},
+			{
+				"eleTitle": "Epaule : 2 kg",
+				"price": "148.000"
+			},
+			{
+				"eleTitle": "Symphonie fruit de mer",
+				"price": "178.000"
+			},
+			{
+				"eleTitle": "BIG BEN",
+				"price": "188.000"
+			}
+		],
+		"supplement": [
+			{
+				"eleTitle": "Supplement frites",
+				"price": "5.000"
+			},
+			{
+				"eleTitle": "Supplement fromage",
+				"price": "5.000"
+			}
+		],
+		"autresPlats": [
+			{
+				"eleTitle": "Lasagne viande hachee",
+				"price": "27.000"
+			},
+			{
+				"eleTitle": "Risotto au poulet champignon",
+				"price": "29.000"
+			},
+			{
+				"eleTitle": "Risotto au boeuf",
+				"price": "34.000"
+			},
+			{
+				"eleTitle": "Paella (2 personnes)",
+				"price": "48.000"
+			}
+		]
+	}
+}

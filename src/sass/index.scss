@@ -379,3 +379,47 @@ nav {
 		}
 	}
 }
+
+.menu-page {
+	background-color: $peach;
+	padding-top: 130px;
+	.container {
+		#drink,
+		#food {
+			.title {
+				h1 {
+					font-size: clamp(3.5rem, 2.5vw, 5.5rem);
+					font-family: "Bebas Neue", sans-serif;
+				}
+			}
+		}
+	}
+}
+
+.menu-display {
+	display: flex;
+	border: 20px solid $baby-powder;
+	.content,
+	.img {
+		flex-grow: 1;
+	}
+	.content {
+		padding: 20px;
+		font-family: "Bebas Neue", sans-serif;
+		.title {
+			h1 {
+				color: $midnight-green;
+			}
+		}
+		div:not(.title) {
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	.menu-display {
+		flex-direction: column !important;
+	}
+}

@@ -5,7 +5,7 @@ import useIsInViewport from "./hook/useIsInViewport";
 
 export default function Route() {
 	const contactRef = useRef(null);
-	const isInTheViewPort = useIsInViewport(contactRef);
+	const isInTheViewPort = useIsInViewport(contactRef, "-115px");
 
 	return (
 		<>
