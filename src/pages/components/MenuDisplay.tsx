@@ -1,8 +1,7 @@
 import { RespBackgImg, RespHeading } from "fhf-react";
 import { useEffect, useRef, useState } from "react";
 import useIsInViewport from "../../hook/useIsInViewport";
-import loadingImage from "/loading.png";
-
+import { CircularProgress } from "@mui/material";
 interface MenuItem {
 	eleTitle: string;
 	price: string;
@@ -33,6 +32,8 @@ export default function MenuDisplay({
 				// Only fetch if not already fetched
 				try {
 					const importedImage = await import(imgSrc);
+					console.log(importedImage);
+
 					// Assuming importedImage has a 'default' property pointing to the image URL
 					if (isMounted) {
 						setImageSrc(importedImage.default);
@@ -71,14 +72,15 @@ export default function MenuDisplay({
 					);
 				})}
 			</div>
+
 			{imageSrc ? ( // Conditionally render the image
 				<RespBackgImg url={imageSrc} className="img">
 					<></>
 				</RespBackgImg>
 			) : (
-				<RespBackgImg url={loadingImage} className="img">
-					<></>
-				</RespBackgImg>
+				<div className="img" style={{ display: "grid", placeItems: "center" }}>
+					<CircularProgress className="loading" color="inherit" />
+				</div>
 			)}
 		</div>
 	);

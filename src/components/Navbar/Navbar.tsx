@@ -33,7 +33,11 @@ export default function Navbar({
 							<img src={logoSrc} alt="logo" />
 						</Link>
 					)}
-					{isSmall && location.pathname === "/" ? <NavList /> : <></>}
+					{isSmall && location.pathname === "/" && !contactIsInTheViewPort ? (
+						<NavList />
+					) : (
+						<></>
+					)}
 				</div>
 				{isSmall || location.pathname !== "/" ? <></> : <NavRight />}
 			</Container>

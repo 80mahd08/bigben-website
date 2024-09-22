@@ -11,9 +11,12 @@
 		"re-fhf": "npm uninstall fhf | npm i fhf"
 	},
 	"dependencies": {
+		"@emotion/react": "^11.13.3",
+		"@emotion/styled": "^11.13.0",
 		"@fortawesome/free-brands-svg-icons": "^6.6.0",
 		"@fortawesome/free-solid-svg-icons": "^6.6.0",
 		"@fortawesome/react-fontawesome": "^0.2.2",
+		"@mui/material": "^6.1.1",
 		"fhf": "^2.0.2",
 		"fhf-react": "^2.0.5",
 		"react": "^18.3.1",
@@ -33,6 +36,8 @@
 		"sass": "^1.78.0",
 		"typescript": "^5.5.3",
 		"typescript-eslint": "^8.0.1",
-		"vite": "^5.4.1"
+		"vite": "^5.4.1",
+		"vite-plugin-dynamic-import": "^1.6.0",
+		"vite-plugin-purgecss": "^0.2.12"
 	}
 }
