@@ -2,6 +2,7 @@ import { RespBackgImg, RespHeading } from "fhf-react";
 import { useEffect, useRef, useState } from "react";
 import useIsInViewport from "../../hook/useIsInViewport";
 import { CircularProgress } from "@mui/material";
+
 interface MenuItem {
 	eleTitle: string;
 	price: string;
@@ -22,35 +23,16 @@ export default function MenuDisplay({
 }: MenuDisplayPropsTypes) {
 	const menuDisplayRef = useRef(null);
 	const isInView = useIsInViewport(menuDisplayRef, "100px");
-	const [imageSrc, setImageSrc] = useState<string | undefined>(undefined);
+	const [imageLoaded, setImageLoaded] = useState(false);
 
 	useEffect(() => {
-		let isMounted = true; // Flag to track component mount status
-
-		const fetchImage = async () => {
-			if (isInView && !imageSrc) {
-				// Only fetch if not already fetched
-				try {
-					const importedImage = await import(imgSrc);
-					console.log(importedImage);
-
-					// Assuming importedImage has a 'default' property pointing to the image URL
-					if (isMounted) {
-						setImageSrc(importedImage.default);
-					}
-				} catch (error) {
-					console.error("Error loading image:", error);
-				}
-			}
-		};
-
-		fetchImage();
-
-		// Cleanup function
-		return () => {
-			isMounted = false;
-		};
-	}, [isInView, imgSrc, imageSrc]); // Include imgSrc in the dependency array
+		if (isInView && !imageLoaded) {
+			const img = new Image();
+			img.src = imgSrc;
+			img.onload = () => setImageLoaded(true);
+			img.onerror = (error) => console.error("Error loading image:", error);
+		}
+	}, [isInView, imgSrc, imageLoaded]);
 
 	return (
 		<div
@@ -73,8 +55,8 @@ export default function MenuDisplay({
 				})}
 			</div>
 
-			{imageSrc ? ( // Conditionally render the image
-				<RespBackgImg url={imageSrc} className="img">
+			{imageLoaded ? (
+				<RespBackgImg url={imgSrc} className="img">
 					<></>
 				</RespBackgImg>
 			) : (
