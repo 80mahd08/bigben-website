@@ -21,14 +21,17 @@ export default function Contact() {
 				<div className="icons">
 					<a href="https://www.facebook.com/profile.php?id=61562767896049">
 						<FontAwesomeIcon icon={faFacebook} />
+						<span style={{ display: "none" }}>facebook icon</span>
 					</a>
 
 					<a href="https://www.instagram.com/bigbengafsa/">
 						<FontAwesomeIcon icon={faInstagram} />
+						<span style={{ display: "none" }}>insta icon</span>
 					</a>
-					<a className="phone">
+					<button title="phone hover icon" className="phone">
 						<FontAwesomeIcon icon={faPhone} />
-					</a>
+						<span style={{ display: "none" }}>phone icon</span>
+					</button>
 				</div>
 			</Container>
 		</section>

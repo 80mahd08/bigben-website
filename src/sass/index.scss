@@ -373,7 +373,7 @@ nav {
 				margin: 0px auto;
 			}
 		}
-		a {
+		button {
 			font-family: "Bebas Neue", sans-serif;
 		}
 		.icons {
@@ -381,10 +381,13 @@ nav {
 			width: 100%;
 			max-width: 200px;
 			justify-content: space-evenly;
+			button,
 			a {
 				color: $midnight-green !important;
 				&.phone {
 					position: relative;
+					background-color: transparent;
+					border: 0;
 					&:hover {
 						&::before {
 							content: "51133448";
@@ -397,7 +400,7 @@ nav {
 							position: absolute;
 							top: -42px;
 							color: $brown-sugar;
-							left: -165%;
+							left: -80%;
 						}
 					}
 				}
